@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.side-bar {
+  color: #707070;
+  background-color: #F2EDE9;
+  float: right;
+  width: 20%;
+}
+
+.side-bar h3 {
+  font-size: 1rem;
+  margin-left: 2rem;
+}
+
+.side-bar h4 {
+  font-size: 0.3rem;
+}
+
+.side-bar ul {
+  list-style: none;
+}
+
+.side-bar ul li {
+  font-size: 0.2rem;
+}
+
+.contents1 {
+  height: 30vh;
+  color: white;
+  background-image: url(../img/top_bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.contents {
+  height: 60vh;
+}
+
+.contents .branch-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contents .branch-menu ul li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  list-style: none;
+}
+
+.branch-menu h2 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.branch-menu .card {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 0.8rem;
+}
+
+.takeout {
+  background-image: url(../img/top_takeout_bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.eatin {
+  background-image: url(../img/top_eatin_bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.access {
+  background-image: url(../img/top_map_bg.png);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.map {
+  width: 10rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  clear: both;
+  background-color: #9D8670;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */
