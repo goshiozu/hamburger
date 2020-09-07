@@ -7,7 +7,7 @@
   <link href="<?php echo get_template_directory_uri();?>/style.css" rel="stylesheet" type="text/css" media="all">
   <link rel="stylesheet" href="/css/style.css">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- <?php wp_head();?> -->
+  <?php wp_head();?>
 </head>
 <body>
 <header class="header">
