@@ -1,5 +1,22 @@
 <?php
-add_theme_support( 'post-thumbnails' ); //アイキャッチサムネイルを有効化
+
+//テーマに必要な機能を有効化する 13回目の講義3.functions.php によるテーマ設定
+function custom_theme_support() {
+  add_theme_support( 'html5', array(
+  'search-form',
+  'comment-form',
+  'comment-list',
+  'gallery',
+  'caption',
+  ) );
+  add_theme_support( 'post-thumbnails' );
+  add_theme_support( 'title-tag' );
+  add_theme_support( 'menus' );
+  register_nav_menus( array(
+  'footer_nav' => esc_html__( 'footer navigation', 'rtbread' ),
+  'category_nav' => esc_html__( 'category navigation', 'rtbread' ), ) );
+  }
+  add_action( 'after_setup_theme', 'custom_theme_support' );//必要な機能を設定しafter_setup_themeのアクションフックで実行
 
 function register_my_menu(){
   register_nav_menu('header-menu',__(header_menu));
